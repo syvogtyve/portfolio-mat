@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*Acima, estrutura usada p trocar a fonte*/
+
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/folha-de-fundo-de-papel-digital-de-aquarela-laranja-pastel_303085-17345.jpg);
+    background-size: cover;
+}
+
+
+h1{ 
+    text-align: center;
+    color: #4e2e30;
+    font-size: 24pt; 
+}
+
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.card{
+    width:430px;
+    background-color:#f0f0f0;
+    border-radius:8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 24px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+
+.card-content{
+    padding:16px
+}
+
+
+.card-content h3{
+    color:#4e2e30;
+    margin:6px;
+    font: size 28px;
+    margin-bottom:8px;
+}
+
+
+.card-content p{
+    margin:6px;
+    color:#666;
+    font: size 15px;
+    line-height:1.3;
+}
+
+
+.card-content .btn{
+    margin:8px;
+
+    display: inline-block;
+    padding:8px 16px;
+    background-color:#ed7b07;
+    text-decoration: none;
+    border-radius:4px;
+    margin-top:16px;
+    color:#f0f0f0;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color:#884800;
+}
